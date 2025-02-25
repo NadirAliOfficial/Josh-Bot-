@@ -1,0 +1,23 @@
+# Byte-compiled Python files
+*.py[cod]
+
+# Log files
+*.log
+
+# Virtualenv files
+.venv
+env
+venv
+
+# IDE files
+.vscode
+.pycharm
+
+# Other files
+__pycache__
+*.egg-info
+dist
+build
+*.pid
+*.sock
+*.tmp

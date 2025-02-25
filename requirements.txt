@@ -1,0 +1,9 @@
+python
+asyncio
+logging
+MetaTrader5
+telethon
+python-telegram-bot
+python-dotenv
+aiohttp
+aiofiles
