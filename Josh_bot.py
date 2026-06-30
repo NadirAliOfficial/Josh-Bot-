@@ -4,7 +4,7 @@ import asyncio
 import MetaTrader5 as mt5
 from telethon import TelegramClient, events
 from telegram import Bot
-import os 
+import os
 from dotenv import load_dotenv
 
 # Load environment variables from.env file
@@ -78,7 +78,7 @@ def execute_trade(data):
         data['sl'] = max(data['sl'], current_price + min_stop_distance)
         data['tp1'] = min(data['tp1'], current_price - min_stop_distance)
 
-    lot = 0.1  
+    lot = 0.1
     order = {
         "action": mt5.TRADE_ACTION_DEAL,
         "symbol": symbol,
